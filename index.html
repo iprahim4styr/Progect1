@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>studycodeing</title>
+     <link rel="stylesheet" href="styles.css">
+        <style type="text/css">
+        body {
+            font-family: Georgia, "Times New Roman", Times, serif;
+            color: purple;
+            background-color: #d8da3d;
+        }
+        h1 {
+            font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif;
+        }
+        .navbar {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            background-color: #333;
+            position: fixed;
+            top: 0;
+            width: 100%;
+        }
+        .navbar li {
+            float: left;
+        }
+        .navbar li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        .navbar li a:hover {
+            background-color: #111;
+        }
+    </style>
+</head>
+<body>
+     <script>
+        function changeBackgroundColor() {
+            document.body.style.backgroundColor = "black";
+        }
+    </script>
+</head>
+<body>
+    <h1>iprahim website to learing and study codeing</h1>
+      <button onclick="changeBackgroundColor()">الوضع الداكن</button>
+  <input type="text" id="codeInput" placeholder="الكود">
+  <button id="startButton">بدء التشغيل</button>
+  
+  <br><br>
+  
+  <iframe width="390" height="260" src="https://youtu.be/jcm0AEQCY1U?si=iApBSWfBKcXCv-hd" frameborder="0" allowfullscreen></iframe>
+
+  <script>
+    var codesUsed = [];
+
+    document.getElementById("startButton").addEventListener("click", function() {
+      var enteredCode = document.getElementById("codeInput").value.trim();
+      if (enteredCode === "") {
+        alert("الرجاء إدخال الكود.");
+        return;
+      }
+      
+      if (codesUsed.includes(enteredCode)) {
+        alert("هذا الكود تم استخدامه بالفعل.");
+      } else if (enteredCode === "mw6o0v5") {
+        document.querySelector('iframe').src += "?autoplay=1"; // تشغيل الفيديو تلقائياً
+        codesUsed.push(enteredCode);
+        alert("تم بدء تشغيل الفيديو.");
+      } else {
+        alert("الكود غير صحيح.");
+      }
+if (codesUsed.includes(enteredCode)) {
+        alert("هذا الكود تم استخدامه بالفعل.");
+      } else if (enteredCode === "ipra20594") {
+        document.querySelector('iframe').src += "?autoplay=1"; // تشغيل الفيديو تلقائياً
+        codesUsed.push(enteredCode);
+        alert("تم بدء تشغيل الفيديو.");
+      } else {
+        alert("الكود غير صحيح.");
+      }
+
+      document.getElementById("codeInput").value = "";
+    });
+  </script>
+  للاشتراك 
+  اذهب الي السنتر وادفع تمن الكود 5 جنية 
+  او بواسطة فودافن كاش علي الرقم:01551119978 و ارسال رسالة الدفع علي الرقم :01558355223
+  او بواسطة تيلدا علي : @ibrahimyousef
+      <footer>
+        <p>© 2024 Corce Store</p>
+    </footer>
+    <!-- Add your JavaScript file for any interactivity -->
+    <script src="script.js"></script>
+</body>
+</html>
